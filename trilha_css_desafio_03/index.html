@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo a Listagem do YouTube com Grid Layout no CSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"  rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div class="wrapper grid-template">
+        <div class="header">
+            <div class="menu-hamburguer ">
+                <img src="./src/imagens/menu.svg" alt="Menu hamburguer ">
+            </div>
+            <div class="logo-yt">
+                <img src="./src/imagens/youtubelogo.svg" width="80" alt="Logo do YouTube">
+            </div>
+            <div class="search">
+                <img src="./src/imagens/search.svg" alt="Barra de busca">
+            </div>
+            <div class="avatar">
+                <img src="./src/imagens/avatar.svg" alt="Avatar do usuário">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li><img src="./src/imagens/home.svg" alt="Menu Home"> <a href="#"><strong>Início</strong></a></li>
+                <li><img src="./src/imagens/compass.svg" alt="Imagem de uma bússola"><a href="#">Explorar</a></li>
+                <li><img src="./src/imagens/youtube.svg" alt="Icone do Youtube"><a href="#">Inscrições</a></li>
+                <li><img src="./src/imagens/disc.svg" alt="Imagem de um disco "><a href="#">YouTube Music</a></li>
+                <li><img src="./src/imagens/thumbs-up.svg" alt="Imagem do polegar do emoji"><a href="#">Vídeos que
+                        gostei</a></li>
+                <li><img src="./src/imagens/clock.svg" alt="Imagem de icone do relógio"><a href="#">Assistir mais
+                        tarde</a></li>
+                <li><img src="./src/imagens/download.svg" alt="Imagem ícone Download"><a href="#">Download</a></li>
+                <li><img src="./src/imagens/film.svg" alt="Imagem ícone filmes"><a href="#">Filmes</a></li>
+                <li><img src="./src/imagens/book.svg" alt="Imagem de um livro"><a href="#">Aprender</a></li>
+                <li><img src="./src/imagens/award.svg" alt="Ícone de esporte"><a href="#">Esportes</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/imagem-geracao-unimed.png" alt="Imagem de Ciencias de Dados">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Geração Tech Unimed - BH - Ciência de Dados</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">2,1&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/scrumtalk.png" alt="Imagem Scrum Talks">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Scrum Talks</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações"> 1,6&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 3 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/marchinelearnig.png"
+                        alt="Imagem de pessoas especialistas em marchinelearnig">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Machine Learning Avançado - Fast Track</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">1,7&nbsp;mil visualizações </span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 4 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/globalskill.png" alt="Imagem De especialistas em Projetos Planning ">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Global Skills #2 - Project Planning</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">2,1&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/pythonzero.png" alt="Imagem de Python">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Como aprender a programar Python do ZERO</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">711&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/imagem-geracao-unimed.png" alt="Imagem de Ciencias de Dados">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Geração Tech Unimed - BH - Ciência de Dados</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">2,1&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/scrumtalk.png" alt="Banner de Scrum Talks">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Scrum Talks</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">1,6&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 3 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/marchinelearnig.png"
+                        alt="Imagem de Pessoas especialistas em marchinelearnig">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Machine Learning Avançado - Fast Track</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">1,7&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 4 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/scrumtalk.png" alt="Imagem de Scrum Talks">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Scrum Talks</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">1,6&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 3 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/marchinelearnig.png"
+                        alt="Imagem de Pessoas especialistas em marchinelearnig">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Machine Learning Avançado - Fast Track</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">1,7&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 4 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/globalskill.png" alt="Imagem De especialistas em Projetos Planning">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Global Skills #2 - Project Planning</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">2,1&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-dos-videos">
+                <div class="imagens">
+                    <img src="./src/imagens/pythonzero.png" alt="Imagem de Python">
+                </div>
+
+                <div class="videos-details">
+                    <div class="avatar-dio">
+                        <img src="./src/imagens/ChannelAvatardio.svg" alt="Imagem do avatar da dio">
+                    </div>
+
+                    <div class="informacoes">
+                        <h3><a href="">Como aprender a programar Python do ZERO</a></h3>
+                        <div class="informacao-de-dados">
+                            <span class="dados-vizualizações">711&nbsp;mil visualizações</span> <br>
+                            <span class="infor-contador-dias"> Transmitido há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

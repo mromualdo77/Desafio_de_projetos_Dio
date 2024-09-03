@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #fff;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 2px;
+}
+
+.wrapper>* {
+    color: #f3f3f3;
+    padding: 24px;
+    font-size: 80%;
+    /* necessário para o layout flutuante */
+    margin-bottom: 10px;
+}
+
+.grid-template {
+    grid-template: "header header header header header"
+        "sidebar main main main main";
+}
+
+
+
+.header {
+    align-items: center;
+    background: #FFFFFF;
+    clear: both;
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    grid-area: header;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-hamburguer{
+    padding-left: 10px;
+}
+
+.logo-yt {
+    margin-left: -258px;
+}
+
+
+.sidebar {
+    background-color: #FFFFFF;
+    display: flex;
+    float: left;
+    grid-area: sidebar;
+    height: 968px;
+    margin-top: 54px;
+    padding: 28px;
+    top: 56px;
+    width: 218px;
+}
+
+.sidebar img {
+    margin: 5px;
+}
+
+.sidebar a {
+    color: #000;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 -5px 45px;
+    position: relative;
+    text-align: left;
+    top: -26px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: main;
+    background: #F9F9F9;
+    margin-left: 45px;
+    width: 1218px;
+    height: 968px;
+}
+
+.banner-dos-videos {
+    width: 282px;
+    height: 262px;
+    padding: 39px 0px 19px 43px;
+    border-radius: 4px 0px 0px 0px;
+    margin-top: 40px;
+}
+
+.imagens {
+    width: 250px;
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+.videos-details {
+    display: flex;
+    width: 249px;
+    height: 74px;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.avatar-dio {
+    width: 42px;
+    height: 42px;
+}
+
+.informacoes h3 a {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    padding-left: -5px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.informacoes .informacao-de-dados {
+    color: #515151;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-top: 15px;
+    text-align: left;
+}
