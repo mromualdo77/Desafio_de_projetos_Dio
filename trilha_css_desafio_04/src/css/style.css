@@ -1,0 +1,442 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.content {
+    background-image: url(../img/Header.png);
+    background-size: 100% 100%;
+    margin: 0;
+    width: 2030px;
+    height: 459px;
+    position: absolute;
+}
+
+.image-1 {
+    bottom: 40px;
+    display: flex;
+    left: 338px;
+    gap: 16px;
+    height: 394px;
+    margin: 0 50px;
+    position: absolute;
+    top: 499px;
+    width: 971px;
+}
+
+.image-study-group {
+    width: 607px;
+    height: 394px;
+}
+
+.infor-chat {
+    width: 348px;
+    height: 374px;
+    margin: 10px;
+}
+
+.infor-chat h2 {
+    color: #23272A;
+    height: 270px;
+    left: 623px;
+    top: 10px;
+    width: 329px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    text-align: left;
+}
+
+.infor-chat p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.image-2 {
+    align-items: center;
+    bottom: 40px;
+    background: #F6F6F6;
+    display: flex;
+    height: 448px;
+    justify-content: baseline;
+    position: absolute;
+    top: 933px;
+    width: 100%;
+}
+
+.chat-voice {
+    height: 212px;
+    margin: 130px 33px 123px 390px;
+    width: 351px;
+}
+
+.image-2 .chat-voice h2 {
+    height: 108px;
+    left: 153px;
+    line-height: 54px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+    text-align: left;
+    width: 329px;
+}
+
+.image-2 .chat-voice p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    height: 88px;
+    left: 156px;
+    text-align: left;
+    padding-top: 20px;
+    width: 348px;
+}
+
+.image-chat-voice {
+    margin-left: -28px;
+    width: 607px;
+    height: 394px;
+}
+
+.image-3 {
+    align-items: center;
+    bottom: 40px;
+    display: flex;
+    justify-content: baseline;
+    height: 448px;
+    left: 80px;
+    position: absolute;
+    top: 1421px;
+    width: 1280px;
+}
+
+.coach {
+    margin: 43px 78px 28px 280px;
+}
+
+.infor-comunidade-avatar {
+    width: 351px;
+    height: 234px;
+}
+
+.infor-comunidade-avatar h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+    text-align: left;
+    width: 329px;
+    height: 108px;
+    left: 776px;
+}
+
+.infor-comunidade-avatar p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    left: 779px;
+    line-height: 21.79px;
+    height: 110px;
+    padding-top: 20px;
+    text-align: left;
+    width: 348px;
+}
+
+.conexao-tecnologica {
+    align-content: center;
+    background: #F6F6F6;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 749px;
+    position: absolute;
+    text-align: center;
+    top: 1909px;
+    width: 100%;
+}
+
+.conteudo-conexao {
+    align-items: center;
+    left: 283px;
+    position: absolute;
+}
+
+.infor-sala-de-conexao h2 {
+    color: #23272A;
+    display: flex;
+    font-family: Luckiest Guy;
+    font-size: 40px;
+    font-weight: 400;
+    height: 80px;
+    margin-left: 330px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 36px;
+    width: 608px;
+}
+
+.infor-sala-de-conexao p {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 21px;
+    margin: 32px 0px 0px 242px;
+    padding-top: 28px;
+    text-align: center;
+    width: 802px;
+}
+
+.image-video {
+    width: 784px;
+    height: 508px;
+    margin: 73px 0 0 242px;
+}
+
+.rodape {
+    background: #23272A;
+    display: flex;
+    height: 134px;
+    padding: 35px 0px 36px 0px;
+    position: absolute;
+    top: 2658px;
+    width: 100%;
+}
+
+.rodape img {
+    display: flex;
+    height: 63px;
+    margin: 0 525px 0 800px;
+    padding: 9px 0px 10px 0px;
+    top: 35px;
+    width: 230px;
+}
+
+
+
+
+
+/* Mobile Styles Iphone 14 pro-max (430px — 932px) */
+@media (min-width: 430px) and (max-width: 932px) {
+    body {
+        position: absolute;
+        margin: 0;
+        width: 430px;
+        height: 932px;
+    }
+
+    .content {
+        background-image: url(../img/Header@2x.png);
+        width: 430px;
+        height: 505px;
+        object-fit: scale-down;
+    }
+
+  
+    .image-1 {
+        display: inline-block;
+        position: relative;
+        margin-left: -400px;
+        width: 428px;
+        height: 573px;
+        top: 480px;
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+    .image-2 {
+        display: inline-block;
+        position: absolute;
+        margin-left: -80px;
+        width: 432px;
+        height: 573px;
+        top: 950px;
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+    .image-3 {
+        display: inline-block;
+        position: absolute;
+        margin-left: -80px;
+        width: 428px;
+        height: 507px;
+        top: 1585px;
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+
+    .image-1 img {
+        width: 320px;
+        height: 272;
+        display: block;
+        margin-left: 60px;
+        user-select: none;
+        cursor: zoom-out;
+    }
+
+    .image-2 img {
+        position: absolute;
+        width: 379px;
+        height: 252px;
+        margin-left: 20px;
+        user-select: none;
+        cursor: zoom-out;
+        top: 20px;
+    }
+
+    .image-3 img {
+        position: absolute;
+        width: 379px;
+        height: 252px;
+        margin-left: -280px;
+        user-select: none;
+        cursor: zoom-out;
+        top: -40px;
+    }
+
+
+    .image-1 .infor-chat h2 {
+        width: 320px;
+        height: 99px;
+        color: #23272A;
+        margin-top: -210px;
+        margin-left: 40px;
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .image-2 .chat-voice h2 {
+        width: 379px;
+        height: 33px;
+        position: absolute;
+        font-family: Open, sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        left: 20px;
+        line-height: 32.68px;
+        top: 280px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .image-3 .infor-comunidade-avatar h2 {
+        width: 373px;
+        height: 33px;
+        position: absolute;
+        font-family: Open, sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        left: 20px;
+        line-height: 32px;
+        top: 230px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .infor-chat p {
+        width: 378px;
+        height: 88px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-left: 40px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .chat-voice p {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: -140px;
+        margin-top: -250px;
+        line-height: 21px;
+        position: absolute;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        top: 580px;
+    }
+
+    .infor-comunidade-avatar p {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        height: 88px;
+        margin-left: -760px;
+        margin-top: -250px;
+        line-height: 21.79px;
+        position: absolute;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        top: 500px;
+        width: 378px;
+    }
+
+    .conexao-tecnologica {
+        position: absolute;
+        width: 428px;
+        height: 560px;
+        top: 2092px;
+        left: 1px;
+        padding: 40px 24px 40px 24px;
+    }
+
+    .conteudo-conexao .infor-sala-de-conexao h2 {
+        width: 376px;
+        height: 64px;
+        font-family: Luckiest Guy;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        margin-left: -250px;
+    }
+
+    .conteudo-conexao .infor-sala-de-conexao p {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        width: 378px;
+        height: 110px;
+        margin-left: -250px;
+    }
+
+    .image-video img {
+        position: absolute;
+        width: 379px;
+        height: 252px;
+        margin-left: -880px;
+        top: 218px;
+    }
+
+    .rodape{   
+        background-image: url(../img/Frame2.png);
+        display:flex;     
+        width: 432px;
+        height: 140px;
+        top: 2680px;
+        padding: 40px 134px 51px 133px;
+    }
+
+}
